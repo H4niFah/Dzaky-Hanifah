@@ -1,0 +1,121 @@
+/* style pada body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* style untuk bagian atas web */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+/* mengatur posisi logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+/* membuat logo NetGeo */
+.natgeo-logo {
+    width: 50px;
+    height: 75px;
+    border: 6px solid #ffcc00;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+/* text di sebelahh logo */
+.text-container {
+    text-align: left;
+}
+/* style text NetGeo */
+.logo-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+/* style text Burung dibawah tulisan netgeo */
+.bird-text {
+    color: #add8e6; /* Warna biru muda */
+    font-size: 16px;
+    margin-top: -18px;
+}
+/* wallpaper di atas */
+.wallpaper {
+    height: 300px;
+    background-image: url(./wallpaper\ burung.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* mengelompokan content */
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* mengelompokan grub burung */
+.gburung {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bird-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.bird-item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+
+.bird-item1 img {
+    width: 100%;  /* Menentukan lebar gambar sesuai kontainer */
+    height: 300px; /* Menentukan tinggi gambar */
+    object-fit: cover; /* Menjaga proporsi gambar */
+    margin-bottom: 10px;
+}
+
+.bird-item1 p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 0;
+}
+
+.bird-item img {
+    width: 100%;  /* Menentukan lebar gambar sesuai kontainer */
+    height: 300px; /* Menentukan tinggi gambar */
+    object-fit: cover; /* Menjaga proporsi gambar */
+    margin-bottom: 10px;
+}
+
+.bird-item p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
